@@ -1,0 +1,34 @@
+# CSV files (exports and generated output)
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+
+# UV
+uv.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,10 @@
+[project]
+name = "goodreads-book-tracker-sync"
+version = "0.1.0"
+description = "Sync books between Goodreads and Book Tracker apps"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sync-books = "sync_books:main"
